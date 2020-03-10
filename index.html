@@ -49,7 +49,7 @@
                     <a class="nav-link js-scroll-trigger" href="#fundraising">Fundraising GuideLines</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#education">Funding Form</a>
+                    <a class="nav-link js-scroll-trigger" href="#education">Fundraising Form</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="#skills">Member Form</a>
@@ -274,27 +274,58 @@
             <div class="w-100">
                 <h2 class="mb-5">Fundraising Form</h2>
 
-                <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-                    <div class="resume-content">
-                        <h3 class="mb-0">sub title optional</h3>
-                        <!--<div class="subheading mb-3">not needed</div>
-            <div>not needed</div>-->
-                        <p>Main text area</p>
-                    </div>
-                    <!--<div class="resume-date text-md-right">
-            <span class="text-primary">August 2006 - May 2010</span>
-          </div>-->
-                </div>
+                <div class="resume-content">
 
-                <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
-                    <div class="resume-content">
-                        <h3 class="mb-0">subtitle optional</h3>
-                        <!--<div class="subheading mb-3">Technology Magnet Program</div>-->
-                        <p>Main text area</p>
-                    </div>
-                    <!--<div class="resume-date text-md-right">
-            <span class="text-primary">August 2002 - May 2006</span>
-          </div>-->
+                    <form>
+                        <div class="row">
+                            <div class="col">
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Name of Organization</label>
+                                    <input type="text" class="form-control" id="Organization" aria-describedby="Organization">
+                                </div>
+                                <div class="form-group">
+                                    <label for="Contact">Contact Person</label>
+                                    <input type="text" class="form-control" id="Contact" aria-describedby="Contact">
+                                </div>
+                                <div class="form-group">
+                                    <label for="Email">Contact Email</label>
+                                    <input type="email" class="form-control" id="Email" aria-describedby="Email">
+                                </div>
+                                <div class="form-group">
+                                    <label for="Dates1">Date Start</label>
+                                    <input type="date" class="form-control" id="Dates1" aria-describedby="Dates1">
+                                </div>
+                                <div class="form-group">
+                                    <label for="Dates2">Date End</label>
+                                    <input type="date" class="form-control" id="Dates2" aria-describedby="Dates2">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label for="Desc">Description</label>
+                                    <input type="text" class="form-control" id="Desc" aria-describedby="Desc">
+                                </div>
+                                <div class="form-group">
+                                    <label for="Location">Location</label>
+                                    <input type="text" class="form-control" id="Location" aria-describedby="Location">
+                                </div>
+                                <div class="form-group">
+                                    <label for="Purpose">Purpose</label>
+                                    <input type="text" class="form-control" id="Purpose" aria-describedby="Purpose">
+                                </div>
+                                <div class="form-group">
+                                    <label for="Est">Estimated Upfront</label>
+                                    <input type="text" class="form-control" id="Est" aria-describedby="Est">
+                                </div>
+                                <div class="form-group">
+                                    <label for="Sign">Advisor Signature</label>
+                                    <input type="text" class="form-control" id="Sign" aria-describedby="Sign">
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
                 </div>
             </div>
         </section>
@@ -304,23 +335,56 @@
         <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
             <div class="w-100">
                 <h2 class="mb-5">Member Form</h2>
+                <div class="resume-content">
 
-                <div class="subheading mb-3">Workflow</div>
-                <ul class="fa-ul mb-0">
-                    <!--<li> If you want check list uncomment this
-                        <i class="fa-li fa fa-check"></i>
-                        Mobile-First, Responsive Design</li>
-                    <li>
-                        <i class="fa-li fa fa-check"></i>
-                        Cross Browser Testing &amp; Debugging</li>
-                    <li>
-                        <i class="fa-li fa fa-check"></i>
-                        Cross Functional Teams</li>
-                    <li>
-                        <i class="fa-li fa fa-check"></i>
-                        Agile Development &amp; Scrum</li>-->
-                    <p>Text here</p>
-                </ul>
+                    <form>
+                        <div class="row">
+                            <div class="col">
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Name of Organization</label>
+                                    <input type="text" class="form-control" id="Organization" aria-describedby="Organization">
+                                </div>
+                                <div class="form-group">
+                                    <label for="Contact">Contact Person</label>
+                                    <input type="text" class="form-control" id="Contact" aria-describedby="Contact">
+                                </div>
+                                <div class="form-group">
+                                    <label for="Email">Contact Email</label>
+                                    <input type="email" class="form-control" id="Email" aria-describedby="Email">
+                                </div>
+                                <div class="form-group">
+                                    <label for="Dates1">Date of Meeting</label>
+                                    <input type="date" class="form-control" id="Dates1" aria-describedby="Dates1">
+                                </div>
+
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label for="Desc">Number of Members</label>
+                                    <input type="text" class="form-control" id="Desc" aria-describedby="Desc">
+                                </div>
+                                <div class="form-group">
+                                    <label for="Location">Cost</label>
+                                    <input type="text" class="form-control" id="Location" aria-describedby="Location">
+                                </div>
+                                <div class="form-group">
+                                    <label for="Purpose">Future Events</label>
+                                    <input type="text" class="form-control" id="Purpose" aria-describedby="Purpose">
+                                </div>
+                                <div class="form-group">
+                                    <label for="Est">Number of Current Members</label>
+                                    <input type="text" class="form-control" id="Est" aria-describedby="Est">
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+
+                <!--<div class="resume-date text-md-right">
+            <span class="text-primary">August 2002 - May 2006</span>
+          </div>-->
             </div>
         </section>
 
@@ -329,14 +393,58 @@
         <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
             <div class="w-100">
                 <h2 class="mb-5">Check Form</h2>
-                <p>Text Here</p>
-                <p class="mb-0">More Text Here</p>
+                <div class="resume-content">
+
+                    <form>
+                        <div class="row">
+                            <div class="col">
+                                <div class="form-group">
+                                    <label for="Request">Request for Payment to</label>
+                                    <input type="text" class="form-control" id="Request" aria-describedby="Request">
+                                </div>
+                                <div class="form-group">
+                                    <label for="Amount">Amount to be Paid</label>
+                                    <input type="text" class="form-control" id="Amount" aria-describedby="Amount">
+                                </div>
+                                <div class="form-group">
+                                    <label for="Reason">Reason for Request</label>
+                                    <input type="text" class="form-control" id="Reason" aria-describedby="Reason">
+                                </div>
+                                <div class="form-group">
+                                    <label for="Individual">Individual Requesting Check</label>
+                                    <input type="text" class="form-control" id="Individual" aria-describedby="Individual">
+                                </div>
+
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label for="Needed">Indicate what date this check is needed</label>
+                                    <input type="date" class="form-control" id="Needed" aria-describedby="Needed">
+                                </div>
+                                <div class="form-group">
+                                    <label for="2nd">2nd Signature</label>
+                                    <input type="text" class="form-control" id="2nd" aria-describedby="2nd">
+                                </div>
+                                <div class="form-group">
+                                    <label for="Dates2">Date</label>
+                                    <input type="date" class="form-control" id="Dates2" aria-describedby="Dates2">
+                                </div>
+                                <div class="form-group">
+                                    <label for="Comments">Comments</label>
+                                    <input type="text" class="form-control" id="Comments" aria-describedby="Comments">
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
             </div>
         </section>
 
         <hr class="m-0">
 
-        <!--<section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="awards">
+        <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="awards">
             <div class="w-100">
                 <h2 class="mb-5">Awards &amp; Certifications</h2>
                 <ul class="fa-ul mb-0">
@@ -368,8 +476,8 @@
                         Place - James Buchanan High School - Hackathon 2005</li>
                 </ul>
             </div>
-        </section>-->
-
+        </section>
+      
     </div>
 
     <!-- Bootstrap core JavaScript -->
@@ -385,3 +493,4 @@
 </body>
 
 </html>
+

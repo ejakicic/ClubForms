@@ -57,9 +57,9 @@
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="#interests">Check Form</a>
                 </li>
-                <!--<li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#awards"></a>
-        </li>-->
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#awards">Contacts</a>
+                </li>
             </ul>
         </div>
     </nav>
@@ -75,14 +75,14 @@
                     <a href="mailto:name@email.com"></a>
                 </div>
                 <p class="lead mb-5">
-                    
+
                 </p>
                 <div class="social-icons">
 
                     <!--<a href="#">
             <i class="fab fa-linkedin-in"></i>
           </a>-->
-                    <a target= "_blank" href="https://github.com/ejakicic/ClubForms">
+                    <a target="_blank" href="https://github.com/ejakicic/ClubForms">
                         <i class="fab fa-github"></i>
                     </a>
                     <!--<a href="#">
@@ -324,7 +324,8 @@
                             </div>
                         </div>
 
-                        <button type="submit" class="btn btn-primary">Submit</button>
+                        <button type="submit" class="btn btn-primary" onClick="sendMail();">Submit</button>
+                        <input type="button" onclick="sendMail();" value="Submit to send email">
                     </form>
                 </div>
             </div>
@@ -444,41 +445,121 @@
 
         <hr class="m-0">
 
-        <!--<section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="awards">
+        <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="awards">
             <div class="w-100">
-                <h2 class="mb-5">Awards &amp; Certifications</h2>
-                <ul class="fa-ul mb-0">
-                    <li>
-                        <i class="fa-li fa fa-trophy text-warning"></i>
-                        Google Analytics Certified Developer</li>
-                    <li>
-                        <i class="fa-li fa fa-trophy text-warning"></i>
-                        Mobile Web Specialist - Google Certification</li>
-                    <li>
-                        <i class="fa-li fa fa-trophy text-warning"></i>
-                        1<sup>st</sup>
-                        Place - University of Colorado Boulder - Emerging Tech Competition 2009</li>
-                    <li>
-                        <i class="fa-li fa fa-trophy text-warning"></i>
-                        1<sup>st</sup>
-                        Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)</li>
-                    <li>
-                        <i class="fa-li fa fa-trophy text-warning"></i>
-                        2<sup>nd</sup>
-                        Place - University of Colorado Boulder - Emerging Tech Competition 2008</li>
-                    <li>
-                        <i class="fa-li fa fa-trophy text-warning"></i>
-                        1<sup>st</sup>
-                        Place - James Buchanan High School - Hackathon 2006</li>
-                    <li>
-                        <i class="fa-li fa fa-trophy text-warning"></i>
-                        3<sup>rd</sup>
-                        Place - James Buchanan High School - Hackathon 2005</li>
+                <h2 class="mb-5">Club Contact Information</h2>
+                <ul>
+                    <li>Anime |
+                        Lee Cottrell |
+                        412-809-5399 x4837 |
+                        Cottrell.Lee@ptcollege.edu |
+                        Tuesday, 4:30-6:30, #605</li>
+                    <li>ASHRAE |
+                        Scott Lynch |
+                        412-809-3519 |
+                        Lynch.Scott@ptcollege.edu</li>
+                    <li>ASME |
+                        Nick Otteni |
+                        412-809-5399 x4884 |
+                        Otteni.Nicholas@ptcollege.edu</li>
+                    <li>ASTA |
+                        Mark Bellemare |
+                        412-809-5236 |
+                        Bellemare.Mark@ptcollege.edu</li>
+                    <li>Creative Writing Club |
+                        Jessica Nowacki |
+                        412-809-5399 x4947 |
+                        DImperio.Cristina@ptcollege.edu |
+                        Tuesday, 4:30-5:30, #320</li>
+                    <li>Criminal Justice Club |
+                        Shannon Wintruba |
+                        412-809-4903 |
+                        Wintruba.Shannon@ptcollege.edu</li>
+                    <li>Culinary Club |
+                        Dave Russo |
+                        412-809-5100 |
+                        Russo.Dave@ptcollege.edu |
+                        Wednesday, 10:30-11:00/4:30-5:00</li>
+                    <li>CyberSecurity Club |
+                        Michael Russell |
+                        412-809-5399 X4737 |
+                        Russell.Michael@ptcollege.edu</li>
+                    <li>DECA |
+                        Tracie Brady |
+                        412-809-5399 x4627 |
+                        Brady.Tracie@ptcollege.edu |
+                        Monday, 4:30 – 6:00, #511</li>
+                    <li>Drama Club |
+                        Amber Monigold |
+                        412-809-5130 |
+                        Monigold.Amber@ptcollege.edu |
+                        Thursday, 5:30-8:00, #401.2</li>
+                    <li>Dungeons & Dragons |
+                        Lee Cottrell 412-809-5399 x 4837 |
+                        Cottrell.Lee@ptcollege.edu |
+                        Mondays, 4:30-10:00, #401.2</li>
+                    <li>Film Club |
+                        Lauren Zito |
+                        412-809-5399 x 4775 |
+                        Zito.Lauren@ptcollege.edu |
+                        Thursday, 5:00 – 7:00, #302</li>
+                    <li>Gaming Club |
+                        Dave Hertz |
+                        412-809-5399 x 4832 |
+                        Hertz.David@ptcollege.edu |
+                        Thursday, 5:00</li>
+                    <li>Gay Straight Alliance (GSA) |
+                        Shane McGarvey |
+                        412-809-5210 |
+                        McGarvey.Shane@ptcollege.edu |
+                        Wednesday, 4:30-5:30, S/F Lounge</li>
+                    <li>IT Research Certification Club |
+                        Wilfred Mutale |
+                        412-809-5135 |
+                        Mutale.Wilfred@ptcollege.edu</li>
+                    <li>Magic Club (The Gathering) |
+                        Dave Hertz |
+                        412-809-5399 x4832 |
+                        Hertz.David@ptcollege.edu |
+                        Wednesday, 4:30 – 10:00, #302</li>
+                    <li>Recharge |
+                        Tom McDermott |
+                        412-809-5399 x4796 |
+                        McDermott.Tom@ptcollege.edu |
+                        Wednesday, 11:30-12:30, #602</li>
+                    <li>Software Development Club |
+                        David Hertz |
+                        412-809-5399 x4832 |
+                        Hertz.David@ptcollege.edu</li>
+                    <li>Women In STEAM |
+                        Chuck Eltringham |
+                        412-809-5284 |
+                        Eltringham.Charles@ptcollege.edu</li>
                 </ul>
             </div>
-        </section>-->
-      
+        </section>
+
     </div>
+
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+
+    <script>
+        function sendMail() {
+            Email.send({
+                Host: "smtp.elasticemail.com",
+                Username: "cottrell.lee@ptcollege.edu",
+                Password: "8BD8481A64E03595954AC880AF6EA293A46F",
+                To: 'MVC3@students.ptcollege.edu',
+                From: "cottrell.lee@ptcollege.edu",
+                Subject: "Githubtest",
+                Body: "Githubtest"
+            }).then(
+                message => alert(message)
+            );
+
+        }
+    </script>
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
@@ -490,7 +571,4 @@
     <!-- Custom scripts for this template -->
     <script src="js/resume.min.js"></script>
 
-</body>
-
-</html>
-
+</body></html>
